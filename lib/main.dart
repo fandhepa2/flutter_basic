@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:flutter_basic/Latihan_2.dart';
+import 'package:flutter_basic/latihan_1.dart';
+import 'package:flutter_basic/latihan_3.dart';
 import 'package:flutter_basic/layout_column.dart';
 import 'package:flutter_basic/layout_landing.dart';
 import 'package:flutter_basic/layout_row.dart';
@@ -19,7 +22,7 @@ class BasicApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false, //menghilangkan label debug
-        home: LayoutLanding());
+        home: Latihantiga());
   }
 }
 
