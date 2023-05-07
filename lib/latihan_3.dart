@@ -104,7 +104,7 @@ class Latihantiga extends StatelessWidget {
                 height: 150,
                 width: 300,
                 decoration: BoxDecoration(
-                  color: Colors.black,
+                  color: Colors.orangeAccent,
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Padding(
@@ -117,22 +117,18 @@ class Latihantiga extends StatelessWidget {
                           Text(
                             'Visa',
                             style: TextStyle(
-                                color: Colors.white,
+                                color: Colors.black,
                                 fontWeight: FontWeight.bold,
                                 fontSize: 16),
                           ),
                           SizedBox(
                             width: 8,
                           ),
-                          Icon(
-                            Icons.check_circle,
-                            color: Colors.purple[900],
-                          ),
                           Spacer(),
                           Text(
                             '28/28',
                             style: TextStyle(
-                                color: Colors.grey,
+                                color: Colors.black,
                                 fontWeight: FontWeight.w500),
                           ),
                         ],
@@ -141,7 +137,7 @@ class Latihantiga extends StatelessWidget {
                       Text(
                         '1,260.28',
                         style: TextStyle(
-                            color: Colors.white,
+                            color: Colors.black,
                             fontSize: 16,
                             fontWeight: FontWeight.w500),
                       ),
@@ -151,19 +147,19 @@ class Latihantiga extends StatelessWidget {
                         children: [
                           Text(
                             '****',
-                            style: TextStyle(color: Colors.grey, fontSize: 16),
+                            style: TextStyle(color: Colors.black, fontSize: 16),
                           ),
                           Text(
                             '****',
-                            style: TextStyle(color: Colors.grey, fontSize: 16),
+                            style: TextStyle(color: Colors.black, fontSize: 16),
                           ),
                           Text(
                             '****',
-                            style: TextStyle(color: Colors.grey, fontSize: 16),
+                            style: TextStyle(color: Colors.black, fontSize: 16),
                           ),
                           Text(
                             '7735',
-                            style: TextStyle(color: Colors.grey, fontSize: 16),
+                            style: TextStyle(color: Colors.black, fontSize: 16),
                           ),
                         ],
                       ),
